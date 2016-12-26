@@ -16,6 +16,14 @@ div.fixedheader  a {
     font-size: medium;
 
 }
+.myTextbox{
+    width: 300px;
+    height: 30px;
+}
+.mySelectBox{
+    width: 300px;
+    height: 35px;
+}
 #postTicket,#login,#signup{
     text-decoration: none;
     float: right;
