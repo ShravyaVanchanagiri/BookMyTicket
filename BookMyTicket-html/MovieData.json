@@ -63,6 +63,33 @@
     "District": "Hydearabad",
     "place": "Hi-tech City",
     "image": "whyhim.jpg"
+  },
+  {
+    "movie_name": "Nanna nenu na boy friends",
+    "No_of_Tickets": "1",
+    "Cost": "120",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "cineplanet",
+    "image": "nnb.jpg"
+  },
+  {
+    "movie_name": "Saptagiri Express",
+    "No_of_Tickets": "2",
+    "Cost": "200",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Minarva",
+    "image": "sge.jpg"
+  },
+  {
+    "movie_name": "Vangaveeti",
+    "No_of_Tickets": "3",
+    "Cost": "250",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Kompally",
+    "image": "vangaveeti.jpg"
   }
 ]
 
