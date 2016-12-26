@@ -1,0 +1,68 @@
+[
+  {
+    "movie_name": "Druva",
+    "No_of_Tickets": "2",
+    "Cost": "220",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Kukatpally",
+    "image": "Dhruva.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
+  },
+  {
+    "movie_name": "Manyam puli",
+    "No_of_Tickets": "3",
+    "Cost": "300",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "LB Nagar",
+    "image": "Mp.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
+  },
+  {
+    "movie_name": "Jayammu Nischayammu Raa",
+    "No_of_Tickets": "5",
+    "Cost": "500",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Moosapet",
+    "image": "JNR.jpg"
+  },
+  {
+    "movie_name": "Ekkadiki Pothavu Chinnavada",
+    "No_of_Tickets": "3",
+    "Cost": "420",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Miyapur",
+    "image": "EPC.jpg"
+  },
+  {
+    "movie_name": "Befikre",
+    "No_of_Tickets": "2",
+    "Cost": "250",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Forum Sujana mall",
+    "image": "befikre.jpg"
+  },
+  {
+    "movie_name": "Dangal",
+    "No_of_Tickets": "1",
+    "Cost": "120",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Ameerpet",
+    "image": "dangal.jpg"
+  },
+  {
+    "movie_name": "Why Him?",
+    "No_of_Tickets": "4",
+    "Cost": "300",
+    "state": "Telangana",
+    "District": "Hydearabad",
+    "place": "Hi-tech City",
+    "image": "whyhim.jpg"
+  }
+]
+
