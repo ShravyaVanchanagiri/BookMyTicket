@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,18 +10,21 @@
 <div id="fixedheader"><center><h1><i>Book My Ticket</i></h1></center></div>
 <br>
 <h1><center>WELCOME TO BOOK MY TICKET</center></h1>
-<center>
-    <fieldset style="width: 400px; height: 200px; background-color: whitesmoke">
-        <form>
+<form name="f01" onSubmit="validate()">
+    <center>
+        <fieldset style="width: 500px; height: 250px; background-color:whitesmoke">
+            <center><h2>Login</h2></center>
             <table align="center" cellpadding="10">
-            <tr><td>E-Mail:</td><td><input type="text" pattern = "^\D{0,100}$" required="required" name="email" value="" placeholder="Username or Email"></td></tr>
-                <tr><td>Password:</td><td><input type="password" name="password" value="" placeholder="Password" required="required"></td></tr>
-            <tr><td><center><input type="submit" name="commit" value="Login"></center></td></tr>
-                <tr><td><a href="signup.html">Sign up here...!</a></td></tr>
+                <tr><td>Email id:</td><td><input type="email" name="email" placeholder="xyz@gmail.com" autofocus/>
+                    <span id="emaillocation" style="color:red"></span></td></tr>
+                <tr><td>Password:</td><td><input type="password" name="password" id="pass1"/>
+                    <span id="passwordlocation" style="color:red"></span></td></tr>
+                <tr><td colspan="2"><input type="submit" value="Login"/> </td>
+                </tr>
             </table>
-        </form>
-    </fieldset>
-</center>
+        </fieldset>
+    </center>
+</form>
 <div id="fixedfooter">AboutUs</div>
 </body>
 </html>
