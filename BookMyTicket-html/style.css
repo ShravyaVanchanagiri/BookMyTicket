@@ -14,7 +14,6 @@ div.fixedheader  a {
     float: right;
     margin-right: 2%;
     font-size: medium;
-
 }
 .myTextbox{
     width: 300px;
@@ -38,22 +37,40 @@ div.fixedheader  a {
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
-
+}
+#search{
+    font-size: medium;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
 }
 
+
+div.target{
+    min-height: 1000px;
+    text-align: center;
+    margin: 0;
+}
 div.fixedfooter {
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    width:100%;
-    color:#CCC;
+    clear: left;
+    padding: 1em;
+    text-align: center;
     background:#333;
-    padding:8px;
+
 }
 .image-list {
     position:relative;
     float: left;
     display:inline;
+
+}
+.image-list  span {
+    vertical-align: bottom;
+
 }
 .image-styles {
     margin:15px;

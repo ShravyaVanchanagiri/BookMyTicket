@@ -7,9 +7,11 @@
             $.each(movies, function (key, val) {
                 html = '<div class="image-list">';
                 html += '<img src ="' + val.image + '" class="image-styles" />';
-                html += '<p class="image-title">' + val.movie_name + '</p>';
+                html += '<p class="image-title">' + val.movie_name + '</p><br>  ';
+                html +='<span id="costTimings"> Cost =Rs.'+val.Cost + '/- "<br>" Time '+val.date+"</span>";
                 html += '</div>';
-                $('#target').append(html);
+
+                $('.target').append(html);
             });
         });
     }); // end of on DOM READY

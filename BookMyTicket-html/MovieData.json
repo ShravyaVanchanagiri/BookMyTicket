@@ -26,7 +26,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Moosapet",
-    "image": "JNR.jpg"
+    "image": "JNR.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Ekkadiki Pothavu Chinnavada",
@@ -35,7 +36,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Miyapur",
-    "image": "EPC.jpg"
+    "image": "EPC.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Befikre",
@@ -44,7 +46,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Forum Sujana mall",
-    "image": "befikre.jpg"
+    "image": "befikre.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Dangal",
@@ -53,7 +56,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Ameerpet",
-    "image": "dangal.jpg"
+    "image": "dangal.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Why Him?",
@@ -62,7 +66,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Hi-tech City",
-    "image": "whyhim.jpg"
+    "image": "whyhim.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Nanna nenu na boy friends",
@@ -71,7 +76,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "cineplanet",
-    "image": "nnb.jpg"
+    "image": "nnb.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Saptagiri Express",
@@ -80,7 +86,8 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Minarva",
-    "image": "sge.jpg"
+    "image": "sge.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   },
   {
     "movie_name": "Vangaveeti",
@@ -89,7 +96,9 @@
     "state": "Telangana",
     "District": "Hydearabad",
     "place": "Kompally",
-    "image": "vangaveeti.jpg"
+    "image": "vangaveeti.jpg",
+    "date": "2012-04-23T18:25:43.511Z"
   }
+
 ]
 
