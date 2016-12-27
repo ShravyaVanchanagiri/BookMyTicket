@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post Ticket</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="fixedheader"><center><h1><i>Book My Ticket</i></h1></center></div>
+    <br>
+    <h1><center>WELCOME TO BOOK MY TICKET</center></h1>
+    <form name="f03">
+        <center>
+            <fieldset style="width: 800px; height: 700px; background-color:whitesmoke">
+                <center><h2>POST YOUR TICKET</h2></center>
+                <table align="center" cellpadding="10">
+
+                    <tr><td>Select Category:</td><td> <select name="sCity" id="sCity" class="mySelectBox">
+                        <option value="" id="sCitySelect">Select a Category</option>
+                        <option value="" id="movieTickets">Movie Tickets</option>
+                    </select>
+                        <span id="name" style="color:red"></span></td></tr>
+                    <tr><td>Movie Name:</td><td><input type="text" name="mname" placeholder="Movie name here" autofocus class="myTextbox"/>
+                        <span id="moviename" style="color:red"></span></td></tr>
+                    <tr><td>Selling Price:</td><td><input type="text" name="sellingPrice" id="sp" class="myTextbox"/>
+                        <span id="sellingPrice" style="color:red"></span></td></tr>
+                    <tr><td>Show date:</td><td><input type="date" name="showDate" id="sd" class="myTextbox"/>
+                        <span id="showDate" style="color:red"></span></td></tr>
+                    <tr><td>Show Time:</td><td><input type="time" name="showTime" id="st" class="myTextbox"/>
+                        <span id="showTime" style="color:red"></span></td></tr>
+                    <tr><td>Venue:</td><td><input type="text" name="showTime" id="ve" class="myTextbox"/>
+                        <span id="venue" style="color:red"></span></td></tr>
+                    <tr><td>Reason:</td><td> <select name="reason" id="reason" class="mySelectBox">
+                        <option value="" id="1">My plan got changed</option>
+                        <option value="" id="2">Over booked</option>
+                        <option value="" id="3">Wrong date booked</option>
+                    </select>
+                        <span id="reas" style="color:red"></span></td></tr>
+                    <tr><td>Number of Tickets:</td><td><input type="number" name="mname" value="1" class="myTextbox"/>
+                        <span id="ticketCount" style="color:red"></span></td></tr>
+                    <tr><td>Description:</td><td><textarea name="desc" class="myTextbox"></textarea>
+                        <span id="desc" style="color:red"></span></td></tr>
+                    <tr><td>Upload Image:</td><td><input type="file" name="fupload">
+                        <span id="fupload" style="color:red"></span></td></tr>
+                    <tr><td colspan="2"><input type="submit" value="register"/> </td>
+                        <td> <input type="reset" value="Reset"/></td>
+                    </tr>
+
+                </table>
+            </fieldset>
+        </center>
+    </form>
+
+    <div class="fixedfooter">AboutUs</div>
+
+</div>
+</body>
+</html>
