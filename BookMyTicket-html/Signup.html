@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Signup</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="signUpValidation.js"></script>
 </head>
 <body>
 <div class="container">
     <div class="fixedheader"><center><h1><i>Book My Ticket</i></h1></center></div>
     <br>
     <h1><center>WELCOME TO BOOK MY TICKET</center></h1>
-    <form name="f02" onSubmit="validate()">
+    <form name="f02" onSubmit="">
         <center>
             <fieldset style="width: 800px; height: 330px; background-color:whitesmoke">
                 <center><h2>REGISTRATION FORM</h2></center>
@@ -24,9 +25,9 @@
                         <span id="passwordlocation" style="color:red"></span></td></tr>
                     <tr><td>Confirm Password:</td><td><input type="password" name="password1" id="pass2" autofocus/>
                         <span id="password1location" style="color:red"></span></td></tr>
-                    <tr><td>Mobile No:</td><td><input type="text" name="phnno" required="required" autofocus/>
+                    <tr><td>Mobile No:</td><td><input type="text" name="phnno" id="phnno" autofocus/>
                         <span id="phnnolocation" style="color:red"></span></td></tr>
-                    <tr><td colspan="2"><input type="submit" value="register"/> </td>
+                    <tr><td colspan="2"><input type="button" value="register" onclick="validate()"/> </td>
                         <td> <input type="reset" value="Reset"/></td>
                     </tr>
                 </table>
