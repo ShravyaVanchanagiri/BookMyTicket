@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="loginValidation.js"></script>
 
 </head>
 <body>
@@ -12,16 +13,16 @@
     </center></div>
     <br>
     <h1><center>WELCOME TO BOOK MY TICKET</center></h1>
-    <form name="f01" onSubmit="validate()">
+    <form name="f01">
         <center>
-            <fieldset style="width: 500px; height: 250px; background-color:whitesmoke">
+            <fieldset style="width: 600px; height: 250px; background-color:whitesmoke">
                 <center><h2>Login</h2></center>
                 <table align="center" cellpadding="10">
                     <tr><td>Email id:</td><td><input type="email" name="email" placeholder="xyz@gmail.com" autofocus/>
                         <span id="emaillocation" style="color:red"></span></td></tr>
                     <tr><td>Password:</td><td><input type="password" name="password" id="pass1"/>
                         <span id="passwordlocation" style="color:red"></span></td></tr>
-                    <tr><td colspan="2"><input type="submit" value="Login"/> </td>
+                    <tr><td colspan="2"><input type="button" value="Login" onclick="validate()"/> </td>
                     </tr>
                 </table>
             </fieldset>
