@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Post Ticket</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="postTicketJs.js"></script>
 </head>
 <body>
 <div class="container">
@@ -16,11 +17,11 @@
                 <center><h2>POST YOUR TICKET</h2></center>
                 <table align="center" cellpadding="10">
 
-                    <tr><td>Select Category:</td><td> <select name="sCity" id="sCity" class="mySelectBox">
+                   <!-- <tr><td>Select Category:</td><td> <select name="sCity" id="sCity" class="mySelectBox">
                         <option value="" id="sCitySelect">Select a Category</option>
                         <option value="" id="movieTickets">Movie Tickets</option>
                     </select>
-                        <span id="name" style="color:red"></span></td></tr>
+                        <span id="name" style="color:red"></span></td></tr> -->
                     <tr><td>Movie Name:</td><td><input type="text" name="mname" placeholder="Movie name here" autofocus class="myTextbox"/>
                         <span id="moviename" style="color:red"></span></td></tr>
                     <tr><td>Selling Price:</td><td><input type="text" name="sellingPrice" id="sp" class="myTextbox"/>
@@ -43,7 +44,7 @@
                         <span id="desc" style="color:red"></span></td></tr>
                     <tr><td>Upload Image:</td><td><input type="file" name="fupload">
                         <span id="fupload" style="color:red"></span></td></tr>
-                    <tr><td colspan="2"><input type="submit" value="register"/> </td>
+                    <tr><td colspan="2"><input type="submit" value="Post Ticket" onclick="onclick1()"/> </td>
                         <td> <input type="reset" value="Reset"/></td>
                     </tr>
 
